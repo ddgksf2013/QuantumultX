@@ -2,6 +2,12 @@
 # > 漫画人
 DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
+
+# > Gmail
+DOMAIN,pop.gmail.com,PROXY
+DOMAIN,imap.gmail.com,PROXY
+DOMAIN,smtp.gmail.com,PROXY
+
 # > SoundCloud
 USER-AGENT,SoundCloud*,PROXY
 DOMAIN-SUFFIX,p-cdn.us,PROXY
