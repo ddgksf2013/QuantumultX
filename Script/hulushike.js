@@ -6,25 +6,25 @@ if (url.indexOf(path1) != -1)
 	let obj = JSON.parse(body);
 	if(obj.containsKey("result"))
 	{
-	obj.result.isFree = "1";
-  	obj.result.isBuy = "1";
-	obj.result.userRight = "1";
-	if(obj.containsKey("user"))
-	{
-	obj.result.user.isBuy = "1";
-	obj.result.user.userRight = "1";
-	}
-	if(obj.containsKey("resource"))
-	{
-		for (i in obj.result.resource.items) 
+		obj.result.isFree = "1";
+  		obj.result.isBuy = "1";
+		obj.result.userRight = "1";
+		if(obj.containsKey("user"))
 		{
-			for (j in obj.result.resource.items[i].articles)
+			obj.result.user.isBuy = "1";
+			obj.result.user.userRight = "1";
+		}
+		if(obj.containsKey("resource"))
+		{
+			for (i in obj.result.resource.items) 
 			{
+				for (j in obj.result.resource.items[i].articles)
+				{
 				obj.result.resource.items[i].articles[j].isFree = "1";
-			}		
+				}		
+			}
 		}
 	}
 	body = JSON.stringify(obj);
-	}
  }
 $done({body});
