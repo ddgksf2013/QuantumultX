@@ -9,12 +9,12 @@ if (url.indexOf(path1) != -1)
 		obj.result.isFree = "1";
   		obj.result.isBuy = "1";
 		obj.result.userRight = "1";
-		if(obj.containsKey("user"))
+		if(obj.result.containsKey("user"))
 		{
 			obj.result.user.isBuy = "1";
 			obj.result.user.userRight = "1";
 		}
-		if(obj.containsKey("resource"))
+		if(obj.result.containsKey("resource"))
 		{
 			for (i in obj.result.resource.items) 
 			{
