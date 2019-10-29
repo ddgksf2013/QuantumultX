@@ -6,12 +6,18 @@ if (url.indexOf(path1) != -1)
 	let obj = JSON.parse(body);
 	if(obj.hasOwnProperty("result"))
 	{
-		for (i in obj.result.resource.items) 
+		if(obj.result.hasOwnProperty("resource"))
 		{
-			for (j in obj.result.resource.items[i].articles)
+			for (i in obj.result.resource.items) 
 			{
-				obj.result.resource.items[i].articles[j].isFree = "1";
-			}		
+				if(obj.result.resource.items[i].hasOwnProperty("articles"))
+				{
+					for (j in obj.result.resource.items[i].articles)
+					{
+						obj.result.resource.items[i].articles[j].isFree = "1";
+					}
+				}
+			}
 		}
 		obj.result.isFree = "1";
 		obj.result.isBuy = "1";
