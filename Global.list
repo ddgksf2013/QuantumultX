@@ -1,4 +1,13 @@
 # (DNS Cache Pollution Protection)
+#POlicy 策略组
+# > Bahamut
+USER-AGENT,Anime*,Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+
+
 # > 漫画人
 DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
@@ -44,12 +53,7 @@ DOMAIN,linear-abematv.akamaized.net,PROXY
 USER-AGENT,InstantVideo.US*,PROXY
 USER-AGENT,Prime%20Video*,PROXY
 DOMAIN-SUFFIX,primevideo.com,PROXY
-# > Bahamut
-USER-AGENT,Anime*,PROXY
-DOMAIN-SUFFIX,bahamut.com.tw,PROXY
-DOMAIN-SUFFIX,gamer.com.tw,PROXY
-DOMAIN,gamer-cds.cdn.hinet.net,PROXY
-DOMAIN,gamer2-cds.cdn.hinet.net,PROXY
+
 # > BBC iPlayer
 USER-AGENT,BBCiPlayer*,PROXY
 DOMAIN-SUFFIX,bbc.co.uk,PROXY
