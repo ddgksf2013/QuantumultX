@@ -1,3 +1,3 @@
 # QuantumultX
 
-Remove scripts
+& Remove Scripts
