@@ -1,3 +1,0 @@
-# QuantumultX
-
-& Remove Scripts
