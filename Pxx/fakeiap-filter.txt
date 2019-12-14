@@ -1,0 +1,95 @@
+HOST-KEYWORD,-buy.itunes.apple.com,fakeiap
+#Planner 5D
+HOST,planner5d.com,fakeiap
+#Day One
+HOST,dayone.me,fakeiap
+#Endel
+HOST,api-production.endel.io,fakeiap
+# Chic Cam
+HOST,chic.mtlab.meitu.com,fakeiap
+# Photoshop
+HOST,lcs-mobile-cops.adobe.io,fakeiap
+# Zing TV
+HOST,api.tv.zing.vn,fakeiap
+# Lich Van Nien 2020 (Lich Viet)
+HOST,api.lichviet.org,fakeiap
+# QIYIVideo
+HOST,intl-i.vip.iqiyi.com,fakeiap
+HOST,intl-passport.iqiyi.com,fakeiap
+# Fing
+HOST,cdn.fing.io,fakeiap
+# vizmato
+HOST,web.vizmato.com,fakeiap
+# SoloLearn
+HOST,api.sololearn.com,fakeiap
+# Vizzywig2020
+HOST,ec2-52-34-190-224.us-west-2.compute.amazonaws.com,fakeiap
+# MusiXmatch
+HOST,apic.musixmatch.com,fakeiap
+#JibJab
+HOST,origin-prod-phoenix.jibjab.com,fakeiap
+# Termius
+HOST,api.termius.com,fakeiap
+# PDF Expert
+HOST,license.pdfexpert.com,fakeiap
+# Gyroscope
+HOST,api.gyrosco.pe,fakeiap
+# Kine Master
+HOST,api-kinemaster-assetstore.nexstreaming.com,fakeiap
+# YouTube Music
+HOST,youtubei.googleapis.com,fakeiap
+# Over
+HOST,api.overhq.com,fakeiap
+# Bright
+HOST,engbright.com,fakeiap
+# Ulike
+HOST,commerce-i18n-api.faceu.mobi,fakeiap
+# Blinkist
+HOST,api.blinkist.com,fakeiap
+# lingokids
+HOST,api.lingokids.com,fakeiap
+# adGuard
+HOST,mobile-api.adguard.com,fakeiap
+# Boom Music
+HOST,apimboom2.globaldelight.net,fakeiap
+# Musicalm
+HOST,www.peacefulsoundsapp.com,fakeiap
+HOST,subscription.aresframework.com,fakeiap
+# Update Nichi
+HOST,mp.bybutter.com,fakeiap
+HOST,pay.wecut.com,fakeiap
+# 1Blocker, Loopsie, Infltr, Yoga Studio
+HOST,api.revenuecat.com,fakeiap
+HOST,api.faceapp.io,fakeiap
+HOST,api.unfold.app,fakeiap
+HOST,asla.joytunes.com,fakeiap
+HOST,graph.nhaccuatui.com,fakeiap
+HOST,accounts.elevateapp.net,fakeiap
+HOST,pixmagicapp.com,fakeiap
+HOST,api.busuu.com,fakeiap
+HOST,bmall.camera360.com,fakeiap
+HOST,entitlements.adobe.io,fakeiap
+HOST,photos.adobe.io,fakeiap
+HOST,api-intl.mr.meitu.com,fakeiap
+HOST-SUFFIX,api.memrise.com,fakeiap
+HOST-SUFFIX,api.picsart.com,fakeiap
+HOST-SUFFIX,api.mondlylanguages.com,fakeiap
+HOST,vsco.co,fakeiap
+HOST-SUFFIX,pool.elsanow.io,fakeiap
+# Calm
+HOST-SUFFIX,api.calm.com,fakeiap
+HOST-SUFFIX,api.indicative.com,fakeiap
+HOST-SUFFIX,lambda.us-east-1.amazonaws.com,fakeiap
+#Instasize
+HOST,api.instasize.com,fakeiap
+HOST,purchases.ws.pho.to,fakeiap
+HOST,nomo.dafork.com,fakeiap
+HOST,cloudapp.aiarlabs.com,fakeiap
+HOST,buy.itunes.apple.com,fakeiap
+#Infltr
+HOST,us-central1-infltr.cloudfunctions.net,fakeiap
+HOST,owa.videoshowiosglobalserver.com,fakeiap
+HOST,app.algoriddim.com,fakeiap
+HOST,viva.v21xy.com,fakeiap
+HOST,viva-asia1.vvbrd.com,fakeiap
+HOST,api.getmimo.com,fakeiap
