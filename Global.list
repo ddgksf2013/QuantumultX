@@ -11,11 +11,17 @@ DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
 # > 平时自用添加代理
 DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
-DOMAIN-KEYWORD,tiktokv,PROXY
 DOMAIN-KEYWORD,notion,PROXY
 DOMAIN-KEYWORD,manhuagui,PROXY
 DOMAIN-SUFFIX,limbopro.xyz,PROXY
-DOMAIN-KEYWORD,duyaoss,PROXY
+DOMAIN-SUFFIX,duyaoss,PROXY
+
+# > Tiktok
+DOMAIN-SUFFIX,tiktokv.com,PROXY
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY
+DOMAIN-SUFFIX,muscdn.com,PROXY
+DOMAIN-SUFFIX,musical.ly,PROXY
+DOMAIN-KEYWORD,-tiktokcdn-com,PROXY
 
 
 # > Gmail
