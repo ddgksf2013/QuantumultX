@@ -8,9 +8,15 @@ DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
 DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
 
 
-# > 漫画人
+# > 平时自用添加代理
 DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
+DOMAIN-KEYWORD,tiktokv,PROXY
+DOMAIN-KEYWORD,notion,PROXY
+DOMAIN-KEYWORD,manhuagui,PROXY
+DOMAIN-SUFFIX,limbopro.xyz,PROXY
+DOMAIN-KEYWORD,duyaoss,PROXY
+
 
 # > Gmail
 DOMAIN,pop.gmail.com,PROXY
