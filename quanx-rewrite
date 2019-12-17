@@ -732,7 +732,7 @@ hostname=goblin.hupu.com,qidian.qpic.cn,ulogs.umeng.com,ulogs.umengcloud.com,alo
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
 ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject-img
 ;2019.12.17
-^https?:\/\/goblin.hupu.com\/.+\/interfaceAd\/getOther reject-img
+^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther reject-img
 
 ; 作业帮
 ^https?:\/\/img\.zuoyebang\.cc\/zyb-image[\s\S]*?\.jpg url reject-img
