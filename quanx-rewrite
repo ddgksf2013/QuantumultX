@@ -734,6 +734,7 @@ hostname=goblin.hupu.com,qidian.qpic.cn,ulogs.umeng.com,ulogs.umengcloud.com,alo
 ;2019.12.17
 ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther reject-img
 
+
 ; 作业帮
 ^https?:\/\/img\.zuoyebang\.cc\/zyb-image[\s\S]*?\.jpg url reject-img
 
