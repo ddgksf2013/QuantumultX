@@ -59,7 +59,7 @@ HOST,subscription.aresframework.com,fakeiap
 HOST,mp.bybutter.com,fakeiap
 HOST,pay.wecut.com,fakeiap
 # 1Blocker, Loopsie, Infltr, Yoga Studio
-HOST,api.revenuecat.com,fakeiap
+;HOST,api.revenuecat.com,fakeiap
 HOST,api.faceapp.io,fakeiap
 HOST,api.unfold.app,fakeiap
 HOST,asla.joytunes.com,fakeiap
@@ -74,12 +74,12 @@ HOST,api-intl.mr.meitu.com,fakeiap
 HOST-SUFFIX,api.memrise.com,fakeiap
 HOST-SUFFIX,api.picsart.com,fakeiap
 HOST-SUFFIX,api.mondlylanguages.com,fakeiap
-HOST,vsco.co,fakeiap
+;HOST,vsco.co,fakeiap
 HOST-SUFFIX,pool.elsanow.io,fakeiap
 # Calm
-HOST-SUFFIX,api.calm.com,fakeiap
-HOST-SUFFIX,api.indicative.com,fakeiap
-HOST-SUFFIX,lambda.us-east-1.amazonaws.com,fakeiap
+;HOST-SUFFIX,api.calm.com,fakeiap
+;HOST-SUFFIX,api.indicative.com,fakeiap
+;HOST-SUFFIX,lambda.us-east-1.amazonaws.com,fakeiap
 #Instasize
 HOST,api.instasize.com,fakeiap
 HOST,purchases.ws.pho.to,fakeiap
