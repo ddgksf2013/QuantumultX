@@ -12,7 +12,6 @@ HOST,lcs-mobile-cops.adobe.io,fakeiap
 HOST,api.tv.zing.vn,fakeiap
 # Lich Van Nien 2020 (Lich Viet)
 HOST,api.lichviet.org,fakeiap
-
 # Fing
 HOST,cdn.fing.io,fakeiap
 # vizmato
