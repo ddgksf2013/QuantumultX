@@ -12,9 +12,7 @@ HOST,lcs-mobile-cops.adobe.io,fakeiap
 HOST,api.tv.zing.vn,fakeiap
 # Lich Van Nien 2020 (Lich Viet)
 HOST,api.lichviet.org,fakeiap
-# QIYIVideo
-HOST,intl-i.vip.iqiyi.com,fakeiap
-HOST,intl-passport.iqiyi.com,fakeiap
+
 # Fing
 HOST,cdn.fing.io,fakeiap
 # vizmato
@@ -35,8 +33,7 @@ HOST,license.pdfexpert.com,fakeiap
 HOST,api.gyrosco.pe,fakeiap
 # Kine Master
 HOST,api-kinemaster-assetstore.nexstreaming.com,fakeiap
-# YouTube Music 
-HOST,youtubei.googleapis.com,fakeiap
+
 # Over
 HOST,api.overhq.com,fakeiap
 # Bright
@@ -58,7 +55,7 @@ HOST,subscription.aresframework.com,fakeiap
 HOST,mp.bybutter.com,fakeiap
 HOST,pay.wecut.com,fakeiap
 # 1Blocker, Loopsie, Infltr, Yoga Studio
-;HOST,api.revenuecat.com,fakeiap
+
 HOST,api.faceapp.io,fakeiap
 HOST,api.unfold.app,fakeiap
 HOST,asla.joytunes.com,fakeiap
@@ -71,7 +68,7 @@ HOST,entitlements.adobe.io,fakeiap
 HOST,photos.adobe.io,fakeiap
 HOST,api-intl.mr.meitu.com,fakeiap
 HOST-SUFFIX,api.memrise.com,fakeiap
-HOST-SUFFIX,api.picsart.com,fakeiap
+;HOST-SUFFIX,api.picsart.com,fakeiap
 HOST-SUFFIX,api.mondlylanguages.com,fakeiap
 ;HOST,vsco.co,fakeiap
 HOST-SUFFIX,pool.elsanow.io,fakeiap
