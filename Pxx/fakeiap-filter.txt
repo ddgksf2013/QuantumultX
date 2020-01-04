@@ -1,4 +1,3 @@
-HOST-KEYWORD,-buy.itunes.apple.com,fakeiap
 #Planner 5D
 HOST,planner5d.com,fakeiap
 #Day One
