@@ -527,7 +527,6 @@ DOMAIN-SUFFIX,api.w.inmobi.com,REJECT
 DOMAIN-SUFFIX,apistaging.airpush.com,REJECT
 DOMAIN-SUFFIX,apistat.adbana.com,REJECT
 DOMAIN-SUFFIX,apk.static.youmi.net,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN-SUFFIX,app.50bang.org,REJECT
 DOMAIN-SUFFIX,appliedsemantics.com,REJECT
 DOMAIN-SUFFIX,applovin.com,REJECT
