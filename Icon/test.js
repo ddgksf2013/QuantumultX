@@ -1,0 +1,4 @@
+#自用规则集
+#update on 2020.01.30
+
+DOMAIN-SUFFIX,1632j6.cn,REJECT
