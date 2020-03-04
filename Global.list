@@ -1,11 +1,11 @@
 # (DNS Cache Pollution Protection)
 #POlicy 策略组
 # > Bahamut
-USER-AGENT,Anime*,Bahamut
-DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
-DOMAIN-SUFFIX,gamer.com.tw,Bahamut
-DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
-DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+;USER-AGENT,Anime*,Bahamut
+;DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+;DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+;DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+;DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
 
 
 # > 平时自用添加代理
