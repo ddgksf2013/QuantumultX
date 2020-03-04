@@ -144,7 +144,6 @@ DOMAIN,wmlog.meituan.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,track.58.com,REJECT
 DOMAIN,tracklog.58.com,REJECT
-;DOMAIN-SUFFIX,iadsdk.apple.com,REJECT
 DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
