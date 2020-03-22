@@ -1,2 +1,0 @@
-http=52.187.169.27:8080, username=sERVsGqURPv3QQi, password=.shdqqy2ruAzJK6EAy(D, over-tls=false, fast-open=false, udp-relay=false, tag=http-tls JAPAN 🇸🇬
-http=34.68.164.252:8080, username=sERVsGqURPv3QQi, password=.shdqqy2ruAzJK6EAy(D, over-tls=false, fast-open=false, udp-relay=false, tag=http-tls USA 🇺🇸
