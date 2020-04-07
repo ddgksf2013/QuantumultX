@@ -1,0 +1,51 @@
+hostname=*.hoopchina.com,goblin.hupu.com,spclient.wg.spotify.com,*.musical.ly,api*.tiktokv.com,api*.musical.ly,api*.amemv.com,aweme*.snssdk.com,youtubei.googleapis.com,*.googlevideo.com,www.youtube.com,www.googleapis.com,youtubei.googleapis.com,s.youtube.com,play.googleapis.com,
+
+# > TikTok
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+;(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 8.0.0
+(?<=(carrier|account|sys)_region=)CN url 307 JP
+
+# > 虎扑
+^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject-img
+^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther url reject
+^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} url reject-img
+
+# > spotify
+^https?://spclient.wg.spotify.com/ad-logic/* url reject-img
+^https?://spclient.wg.spotify.com/ads/* url reject-img
+^https?://spclient.wg.spotify.com/.+ad_slot url reject-img
+^https?://spclient.wg.spotify.com/.+banners url reject-img
+^https?://spclient.wg.spotify.com/.+canvases url reject-img
+^https?://spclient.wg.spotify.com/.+cards url reject-img
+^https?://spclient.wg.spotify.com/.+crashlytics url reject-img
+^https?://spclient.wg.spotify.com/.+doubleclick.net url reject-img
+^https?://spclient.wg.spotify.com/.+enabled-tracks url reject-img
+^https?://spclient.wg.spotify.com/.+event url reject-img
+^https?://spclient.wg.spotify.com/.+promoted_offer url reject-img
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ url reject-img
+
+# > YouTube
+^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
+^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-img
+^https?:\/\/.+\.googlevideo\.com\/videogoodput\? url reject-img
+^https?:\/\/.+\.youtube\.com\/.+get_ads url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
+^https?:\/\/.+\.youtube\.com\/get_midroll url reject-img
+^https?:\/\/.+\.youtube\.com\/error_204 url reject-img
+^https?:\/\/.+\.youtube\.com\/pagead\/* url reject-img
+^https?:\/\/play.googleapis.com/log* url reject-img
+^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
+^https?:\/\/.+\.youtube\.com\/ptracking\? url reject-img
+^https?:\/\/m\.youtube\.com\/_get_ads url reject-img
+^https?:\/\/youtubei.googleapis.com/youtubei/.+ad_ url reject-img
+^https?:\/\/www.googleapis.com/adsmeasurement/* url reject-img
+^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject-img
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
+^https?:\/\/s\.youtube\.com\/api\/stats\/watchtime?adformat url reject-img
+^https?:\/\/s0\.2mdn\.net\/ads\/ url reject-img
+^https?:\/\/youtubei.googleapis.com/youtubei/.+log_ url reject-img
+^https?:\/\/stats\.tubemogul\.com\/stats\/ url reject-img
