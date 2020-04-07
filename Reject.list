@@ -5,6 +5,12 @@ hostname=*.hoopchina.com,goblin.hupu.com,spclient.wg.spotify.com,*.musical.ly,ap
 ;(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 8.0.0
 (?<=(carrier|account|sys)_region=)CN url 307 JP
 
+# > 爱奇艺
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
+^https?:\/\/.+\/videos\/other\/ url reject
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
+
 # > 虎扑
 ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject-img
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
