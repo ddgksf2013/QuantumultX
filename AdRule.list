@@ -5665,7 +5665,6 @@ DOMAIN-SUFFIX,i.bigmir.net,REJECT
 DOMAIN-SUFFIX,i.clkservice.youdao.com,REJECT
 DOMAIN-SUFFIX,i.dreamfull.cn,REJECT
 DOMAIN-SUFFIX,i.flow.browser.oppomobile.com,REJECT
-DOMAIN-SUFFIX,i.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,i.go.sohu.com,REJECT
 DOMAIN-SUFFIX,i.haloapps.com,REJECT
 DOMAIN-SUFFIX,i.hao61.net,REJECT
