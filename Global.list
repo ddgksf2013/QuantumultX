@@ -13,6 +13,8 @@ USER-AGENT,YouTube*,Youtube
 DOMAIN-SUFFIX,googlevideo.com,Youtube
 DOMAIN-SUFFIX,youtube.com,Youtube
 DOMAIN,youtubei.googleapis.com,Youtube
+# >google 
+DOMAIN-KEYWORD,google,Youtube
 
 # > 平时自用添加代理
 DOMAIN-KEYWORD,manhuaren,PROXY
@@ -207,7 +209,6 @@ DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
-DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
