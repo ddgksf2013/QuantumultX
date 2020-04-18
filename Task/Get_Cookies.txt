@@ -1,0 +1,22 @@
+hostname = tieba.baidu.com, api.m.jd.com, mobwsa.ximalaya.com, www.50yin.com, m.ximalaya.com, api-hdcj.9w9.com, api.everphoto.cn, wap.js.10086.cn, 
+
+
+
+#1⃣️贴吧应用获取cookies
+^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header tieba.cookie.js
+#2⃣️京东应用获取cookies
+^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) url script-request-header JD_DailyBonus.js
+#3⃣️人人应用获取cookies
+^https:\/\/api\.rr\.tv\/user\/profile url script-request-header rrtv.cookie.js
+#4⃣️喜马拉雅获取cookies
+^https?:\/\/.*\/mobile\-user\/homePage\/.* url script-request-header ximalaya.cookie.js
+#5⃣️50音网页获取cookies
+^https:\/\/www\.50yin\.com\/* url script-request-header 50yin.js
+#6⃣️微信喜马拉雅cookies
+;https://m.ximalaya.com/wechat/* url script-request-header xmly_wc.js
+#7⃣️活动抽奖获取cookies
+^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_new.js
+#8⃣️时光相册
+^https:\/\/api.everphoto.cn\/users\/self\/checkin\/v2 url script-request-header everphoto.cookie.js
+#9⃣️江苏10086
+http://wap.js.10086.cn/nact/action.do url script-request-body cmccjs.js
