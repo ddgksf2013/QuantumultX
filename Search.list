@@ -1,7 +1,9 @@
-#From 🐩️哥 (https://raw.githubusercontent.com/Neurogram-R/Surge/master/module/Q-Search.sgmodule)
 #- Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
 #注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
 hostname = duckduckgo.com
+
+# ph xxx (pornhub)
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ url 302 https://cn.pornhub.com/video/search?search=$1
 
 # bd xxx (百度)
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://www.baidu.com/s?wd=$1
@@ -21,8 +23,6 @@ hostname = duckduckgo.com
 # tre xxx (Google 译至英)
 ^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
 
-# trj xxx (Google 译至日)
-^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
 
 # sspai xxx (少数派站内搜索)
 ^https:\/\/duckduckgo.com\/\?q=sspai\+([^&]+).+ url 302 https://sspai.com/search/post/$1
@@ -30,8 +30,8 @@ hostname = duckduckgo.com
 # ssp xxx (Google 搜索少数派)
 ^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ url 302 https://www.google.com/search?as_q=$1&as_sitesearch=sspai.com
 
-# ytb xxx (YouTube)
-^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ url 302 https://www.youtube.com/results?search_query=$1
+# yt xxx (YouTube)
+^https:\/\/duckduckgo.com\/\?q=yt\+([^&]+).+ url 302 https://www.youtube.com/results?search_query=$1
 
 # so xxx (Stack Overflow)
 ^https:\/\/duckduckgo.com\/\?q=so\+([^&]+).+ url 302 https://stackoverflow.com/search?q=$1
