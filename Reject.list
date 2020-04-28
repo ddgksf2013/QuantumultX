@@ -1,7 +1,7 @@
 hostname=*.hoopchina.com,goblin.hupu.com,spclient.wg.spotify.com,*.musical.ly,api*.tiktokv.com,api*.musical.ly,api*.amemv.com,aweme*.snssdk.com,youtubei.googleapis.com,*.googlevideo.com,www.youtube.com,www.googleapis.com,youtubei.googleapis.com,s.youtube.com,play.googleapis.com,
 
 # > TikTok
-;(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+#(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 # 不使用
 ;(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 8.0.0
 (?<=(carrier|account|sys)_region=)CN url 307 JP
