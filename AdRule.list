@@ -676,7 +676,6 @@ DOMAIN-SUFFIX,iflow.minfo.baofeng.net,REJECT
 DOMAIN-SUFFIX,iflow.uczzd.com,REJECT
 DOMAIN-SUFFIX,iflow.uczzd.net,REJECT
 DOMAIN-SUFFIX,ifs.tanx.com,REJECT
-DOMAIN-SUFFIX,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,image.yiqifa.com,REJECT
 DOMAIN-SUFFIX,images.taboola.com,REJECT
 DOMAIN-SUFFIX,img.9ads.net,REJECT
