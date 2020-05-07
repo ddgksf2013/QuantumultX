@@ -16,6 +16,40 @@ DOMAIN,youtubei.googleapis.com,Youtube
 # >google 
 DOMAIN-KEYWORD,google,Youtube
 
+
+
+
+# 自用规则更新
+host, gist.github.com, proxy
+host-suffix, appraven.net, proxy
+host-suffix, audiomack.com, proxy
+host-suffix, konachan.com, proxy
+host-suffix, mastodon.social, proxy
+host-suffix, strava.com, proxy
+host, zhs.tw, proxy
+host-suffix, gotbatu.com, proxy
+host-suffix, airtable.com, proxy
+host-suffix, tinyurl.com, proxy
+host, my.nicegram.app, proxy
+host, api.playond.com, proxy
+host, js.intercomcdn.com, proxy
+host-suffix, intercom.io, proxy
+host, logs-01.loggly.com, proxy
+host-suffix, urlencoder.org, proxy
+host-keyword, tingles, proxy
+host, p14-buy.itunes.apple.com, proxy
+host, ssl-api.itranslateapp.com, proxy
+host-suffix, touhou.plus, proxy
+host-keyword, prisma, proxy
+host-suffix, ebb.io, proxy
+host-suffix, uwp.pp.ua, proxy
+host-suffix, aoaomoe.me, proxy
+host, testflight.apple.com, proxy
+host-keyword, hanime, proxy
+host-suffix, spankbang.com, proxy
+host-suffix, globaldelight.net, proxy
+#2020.05.07
+
 # > 平时自用添加代理
 DOMAIN-KEYWORD,manhuaren,PROXY
 DOMAIN-SUFFIX,calm.com,PROXY
