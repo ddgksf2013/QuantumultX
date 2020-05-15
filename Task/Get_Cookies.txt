@@ -15,7 +15,7 @@ hostname = tieba.baidu.com, api.m.jd.com, mobwsa.ximalaya.com, www.50yin.com, m.
 #6⃣️微信喜马拉雅cookies
 ;https://m.ximalaya.com/wechat/* url script-request-header xmly_wc.js
 #7⃣️活动抽奖获取cookies
-^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_new.js
+^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign url script-request-header WeChatLottery_new.js
 #8⃣️时光相册
 ^https:\/\/api.everphoto.cn\/users\/self\/checkin\/v2 url script-request-header everphoto.cookie.js
 #9⃣️江苏10086
