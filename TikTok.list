@@ -1,0 +1,7 @@
+hostname=*.tiktokv.com, *.byteoversea.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com,*tiktokcdn.com,
+
+#这个是 Appstore 美区下载的 Tiktok 版本
+# Tiktok
+(?<=(carrier|account|sys)_region=)CN url 307 JP
+(?<=&app_version=)1(6|7)..(?=.?.?&) url 307 1
+(?<=\?version_code=)1(6|7)..(?=.?.?&) url 307 1
