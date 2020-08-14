@@ -1,10 +1,13 @@
-hostname=*.hoopchina.com,goblin.hupu.com,spclient.wg.spotify.com,*.musical.ly,api*.tiktokv.com,api*.musical.ly,api*.amemv.com,aweme*.snssdk.com,youtubei.googleapis.com,*.googlevideo.com,www.youtube.com,www.googleapis.com,youtubei.googleapis.com,s.youtube.com,play.googleapis.com,
+hostname=*.hoopchina.com,goblin.hupu.com,spclient.wg.spotify.com,*.musical.ly,*.tiktokv.com,*.musical.ly,api*.amemv.com,*.snssdk.com,youtubei.googleapis.com,*.googlevideo.com,www.youtube.com,www.googleapis.com,youtubei.googleapis.com,s.youtube.com,play.googleapis.com,*.byteoversea.com,
+
 
 # Tiktok
 (?<=_region=)CN(?=&) url 307 JP
 (?<=&app_version=)17..(?=.?.?&) url 307 1
 (?<=\?version_code=)17..(?=.?.?&) url 307 1
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+
+
 
 
 # > 爱奇艺
